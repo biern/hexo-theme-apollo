@@ -2,9 +2,16 @@ header {
     min-height: 60px;
 
     .logo-link {
-        float: left;
+      float: left;
+      img {
+        margin-right: 2rem;
+        vertical-align: top;
+      }
+      h2 {
+        display: inline-block;
+      }
     }
-    
+
     .nav {
         float: right;
         left: 80px;
